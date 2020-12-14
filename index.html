@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <!---fontawesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+</head>
+<body>
+    
+    <div class="main_div" id="container">
+        <div class="center_div">
+            <div class="heading">
+                <h3 id="song_name">Tum se hi</h3>
+                <p id="artist_name">Ankit Tiwari</p>
+            </div>
+
+            <div class="img_container">
+                <img src="https://punjab2000.com/wp-content/uploads/2020/08/d_BjXQr1zkk.jpg" alt="picture" id="photo">
+            </div>
+
+            <audio src="https://pagalsong.in/uploads/systemuploads/mp3/Sadak%202/Tum%20Se%20Hi%20-%20Sadak%202%20128%20Kbps.mp3" ></audio>
+
+            <div class="progress_container">
+                <div class="time_section">
+                    <h3>0.00</h3>
+                    <h3>2.44</h3>
+                </div>
+
+                <div class="progress_meter">
+                    <div class="progress_meter_mark"></div>
+                </div>
+            </div>
+
+            <div class="music_controllers">
+                <i class="fas fa-backward" title="previous"></i>
+                <i class="far fa-play-circle" title="play" id="play"></i>
+                <i class="fas fa-forward" title="next" id="next"></i>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+
+</body>
+</html>

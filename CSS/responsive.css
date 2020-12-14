@@ -1,0 +1,42 @@
+/*for desktop and pc*/
+@media (min-width:1024px){
+    
+}
+
+/*for tablets and small pc's*/
+@media (min-width:769px) and (max-width:1023px){
+    html{font-size: 60%;}
+    .center_div{
+        width: calc(var(--width) - 61vw);
+    }
+}
+/*for mobile devices*/
+@media (max-width:768px){
+    html{font-size : 58%;}
+
+    body{
+        background-color: yellow;
+    }
+    .center_div{
+        width: calc(var(--width) - 58vw);
+    }
+}
+/*for small mobile phones*/
+@media(max-width:568px){
+    html{font-size : 54%;}
+
+    .center_div{
+        width: calc(var(--width) - 35vw);
+        height: calc(var(--height) - 23vh);
+    }
+    .img_container{
+        width: 180px;
+        height: 180px;
+    }
+    .progress_container{
+        margin-top: 20px;
+    }
+    .music_controllers{
+        margin-top: -5px;
+    }
+}
