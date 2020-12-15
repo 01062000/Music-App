@@ -40,5 +40,40 @@ export const Music = [
         song_name : "Wajah Tum Ho",
         song_src : "https://pagalsong.in/uploads/systemuploads/mp3/Wajah%20Tum%20Ho/Wajah%20Tum%20Ho%20Title%20Song%20128%20Kbps.mp3",
         artist_name : "Mithoon, Altamash Faridi"
+    },
+
+    {
+        picture : "https://www.masala.com/public/images/2019/04/11/Aashiqui2.jpg",
+        song_name : "Tum Hi Ho",
+        song_src : "https://pagalsong.in/uploads/systemuploads/mp3/Aashiqui%202/Tum%20Hi%20Ho.mp3",
+        artist_name : "Arijit Singh"
+    },
+
+    {
+        picture : "https://i.pinimg.com/originals/ae/90/59/ae905961e053dd1ff09a2e0b9eea1585.jpg",
+        song_name : "Ae Mere Humsafar",
+        song_src : "https://pagalsong.in/uploads/systemuploads/mp3/Baazigar/Ae%20Mere%20Humsafar.mp3",
+        artist_name : "Vinod Rathod, Alka Yagnik"
+    },
+
+    {
+        picture : "https://www.dvdplanetstore.pk/wp-content/uploads/2016/04/Sanam-re-2016dvdplanetstorepk.jpg",
+        song_name : "Hua Hain Aaj",
+        song_src : "https://pagalsong.in/uploads/systemuploads/mp3/Sanam%20Re/03%20-%20Hua%20Hain%20Aaj%20Pehli%20Baar.mp3",
+        artist_name : "Amaal Mallik, Armaan Malik"
+    },
+
+    {
+        picture : "https://pbs.twimg.com/media/DRxMd4qVwAAzjWk.jpg",
+        song_name : "Jaadu Teri Nazar",
+        song_src : "https://pagalsong.in/uploads/systemuploads/mp3/Darr/Jaadu%20Teri%20Nazar.mp3",
+        artist_name : "Udit Narayan, Shiv-Hari"
+    },
+
+    {
+        picture : "https://i.ytimg.com/vi/MUUaPE3UmpU/maxresdefault.jpg",
+        song_name : "Dil Mein Ho Tum",
+        song_src : "https://pagalsong.in/uploads/systemuploads/mp3/Cheat%20India/Dil%20Mein%20Ho%20Tum%20-%20Cheat%20India%20128%20Kbps.mp3",
+        artist_name : "Armaan Malik"
     }
 ]
