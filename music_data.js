@@ -9,7 +9,7 @@ export const Music = [
 
     {
         picture : "https://static-koimoi.akamaized.net/wp-content/new-galleries/2016/06/movie-junooniyat-review-bollywood.jpg",
-        song_name : "Mujhko Barsaat Bana Lo",
+        song_name : "Barsaat Bana Lo",
         song_src : "https://pagalsong.in/uploads/systemuploads/mp3/Junooniyat/02%20-%20Mujhko%20Barsaat%20Bana%20Lo%20128%20Kbps.mp3",
         artist_name : "Armaan Malik"
     },
