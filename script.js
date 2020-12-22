@@ -3,6 +3,7 @@ import {Music} from './music_data.js';
 window.addEventListener('load', () => {
 
     //fetch the element from DOM;
+    let cursor = document.querySelector('.cursor');
     const audio = document.querySelector('audio');
     const play_btn = document.getElementById('play');
     const next_btn = document.getElementById('next');
@@ -15,6 +16,14 @@ window.addEventListener('load', () => {
     let current_time = document.querySelector('.current_time');
     let total_duration = document.querySelector('.total_duration');
     const progress_div = document.querySelector('.progress_meter');
+
+    //cursor event
+    window.addEventListener('mousemove', e => {
+        //console.log(e);
+        cursor.style.top = `${e.pageY}px`;
+        cursor.style.left = `${e.pageX}px`;
+    });
+
 
     let indexOfTheSong = 0;
     //A flag that indicates whether the song is playing or not
